@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotFolio.Web", "SpotFolio.Web.csproj", "{70765D38-B0CA-45A9-8D78-85C99176E61B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotFolio.Migration", "..\SpotFolio.Migration\SpotFolio.Migration.csproj", "{2DADAD2E-4145-4E9B-8072-D0D98BB347C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A1E94837-794E-41E8-8D53-5F00BFE259AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{70765D38-B0CA-45A9-8D78-85C99176E61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70765D38-B0CA-45A9-8D78-85C99176E61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70765D38-B0CA-45A9-8D78-85C99176E61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DADAD2E-4145-4E9B-8072-D0D98BB347C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DADAD2E-4145-4E9B-8072-D0D98BB347C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DADAD2E-4145-4E9B-8072-D0D98BB347C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DADAD2E-4145-4E9B-8072-D0D98BB347C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DADAD2E-4145-4E9B-8072-D0D98BB347C2} = {A1E94837-794E-41E8-8D53-5F00BFE259AC}
 	EndGlobalSection
 EndGlobal
